@@ -13,12 +13,12 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[react-media-player\] ](#-react-media-player-)
+- [📖 \[react-jetfuel-app\] ](#-react-jetfuel-app-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
-    - [You can find the live version of this web application in this link =\>**react-media-player**](#you-can-find-the-live-version-of-this-web-application-in-this-link-react-media-player)
+    - [You can find the live version of this web application in this link =\>**react-jetfuel-app**](#you-can-find-the-live-version-of-this-web-application-in-this-link-react-jetfuel-app)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -28,16 +28,16 @@
     - [Deployment ](#deployment-)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
+  - [🤝 Contributing ](#-contributing-)https://react-jetfuel.netlify.app/
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [react-media-player](https://react-jetfuel.netlify.app/) <a name="about-project"></a>
+# 📖 [react-jetfuel-app](https://react-jetfuel.netlify.app/) <a name="about-project"></a>
 
-**[react-media-player](https://react-jetfuel.netlify.app/)** is an application that is built with react and bundled with Vite. It essentially provides a login page, which once authenticated, gives access to the edit button. The list of todos are display on the Home page. Other pages are also accessible with routers.
+**[react-jetfuel-app](https://react-jetfuel.netlify.app/)** This is the app through which JetFuel's influencers access the company's offers, track their earnings, and manage their accounts.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -58,7 +58,6 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Linter checks]**
-- **[Vite]**
 - **[JavaScript APIs]**
 - **[CSS grid and flexbox]**
 
@@ -69,7 +68,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-### [react-media-player](https://react-jetfuel.netlify.app/)
+### [react-jetfuel-app](https://react-jetfuel.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
