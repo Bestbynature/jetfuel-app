@@ -1,26 +1,32 @@
+<a name="readme-top"></a>
+
+<div align="center">
+  
+  <br/>
+
+  <h3><b></b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
+
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Airline Frontend App](#-airline-frontend-app)
-- [🤝Airline Reservation Management System ](#airline-reservation-management-system-)
-  - [🧪 Linters ](#-linters-)
+- [📖 \[react-media-player\] ](#-react-media-player-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [💻 API Documentation ](#-api-documentation-)
-  - [💻 Kanban Board ](#-kanban-board-)
+  - [🚀 Live Demo ](#-live-demo-)
+    - [You can find the live version of this web application in this link =\>**react-media-player**](#you-can-find-the-live-version-of-this-web-application-in-this-link-react-media-player)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
-    - [Frontend $ Backend Testing ](#frontend--backend-testing-)
-    - [Usage](#usage)
-    - [On Windows](#on-windows)
-- [To start the development server](#to-start-the-development-server)
-- [To build for production and watch for changes](#to-build-for-production-and-watch-for-changes)
-    - [On Ubuntu](#on-ubuntu)
-  - [👥 Author ](#-author-)
+    - [Usage ](#usage-)
+    - [Run tests ](#run-tests-)
+    - [Deployment ](#deployment-)
   - [👥 Authors ](#-authors-)
-  - [👥 Authors ](#-authors--1)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -29,151 +35,113 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Airline Frontend App<a name="about-project"></a>
+# 📖 [react-media-player](https://react-jetfuel.netlify.app/) <a name="about-project"></a>
 
-Welcome to the frontend of the Airline Reservation Project, a cutting-edge application built using React and Redux technologies. Here, you can easily browse and reserve flights of your choice by selecting your preferred flight date date and city city of origin and destination.
-Our user-friendly interface allows you to explore a diverse range of flights with detailed information. You can make informed decisions based on real-time availability, ensuring a seamless reservation process.
-
-# [🤝Airline Reservation Management System](https://github.com/Bestbynature/final-group-capstone.git) <a name="about-project-associated"></a>
-
-[Air Reservation Management System Backend](https://github.com/Bestbynature/final-group-capstone.git) is just the end point of all the functionality on the Frontend app it is build on Ruby on rails using postgresql as a Database. Proper authorizations of users and authentication of user for creation reservations, flights and cancel them according to role
-
-## 🧪 Linters <a name="linters"></a>
-[![Linters](https://github.com/ernestmusong/Booking-app-frontend/actions/workflows/linters.yml/badge.svg)](https://github.com/ernestmusong/Booking-app-frontend/actions/workflows/linters.yml)
+**[react-media-player](https://react-jetfuel.netlify.app/)** is an application that is built with react and bundled with Vite. It essentially provides a login page, which once authenticated, gives access to the edit button. The list of todos are display on the Home page. Other pages are also accessible with routers.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-In this project we utilize our skills and knowledge to create this project
-
 <details>
-  <summary>Project language </summary>
+  <summary>Client</summary>
   <ul>
-    <li>JavaScript</li>
-    <li>Ruby on Rails</li>
-    <li>React and Redux</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JAVASCRIPT</li>
+    <li>React</li>
   </ul>
 </details>
 
-<details>
-  <summary>FrameWork</summary>
-  <ul>
-    <li><a href="https://react.dev/">React</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>DataBase</summary>
-  <ul>
-    <li><a href="postgresql.org/">Postgres</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Frontend and Backend FrameWork</summary>
-  <ul>
-    <li><a href="https://rubyonrails.org/">ROR</a></li>
-  </ul>
-</details>
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- log in
-- Sign in
-- Responsive
-- Book Flight
-- Reserve Flight
-
-## 💻 API Documentation <a name="api-doc"></a>
-
-To get to the API Documentation, go to the link above after starting rails server
-
-
-localhost:3000/api-docs
+- **[Linter checks]**
+- **[Vite]**
+- **[JavaScript APIs]**
+- **[CSS grid and flexbox]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
 
-## 💻 Kanban Board <a name="kanban-board"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- Click <a href="https://github.com/users/Bestbynature/projects/5">here</a> for the kanban board. Total Number of People in the team: 4 people: @MarwanDev @naji-97 @citec-47 @Bestbynature 
-
-- Github Repo <a href="https://github.com/Bestbynature/final-group-capstone">link</a>
-
-![Kanban Board Image](./screenshot_kanban_final_capstone.PNG)
-![Kanban Board Image](./screenshot_kanban_final_capstone2.JPG)
+### [react-media-player](https://react-jetfuel.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Prerequisites
 
-In order to run this project with the [Project Repo](https://github.com/Bestbynature/final-group-capstone.git) you need:
+In order to run this project you need:
 
-- Node installed in your machine
-- Ruby installed in your machine
-- Ruby on Rails installed in your machine
-- Postgres installed and all password and user being setup
-- Any integrated terminal like
-  - CMD `preferred`
-  - Bash`preferred`
-  - PowerShell
-  - VsCode
-  - etc
+<ul>
+    <li>The current version of node</li>
+    <li>To have Git installed on your local machine</li>
+    <li>Node Package manager (npm) </li>
+    <li>An editor such as Visual Studio Code</li>
+  </ul>
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Setup
 
-for cloning follow this steps
-- go to green `code` button very top left corner of this Repository container
-- copy your `SSH` or `https` file and clone it in your desired folder
-- or just download `ZIP` file
-- Create `.env` file in root directory and add this line there `port=8000`
+Clone this repository to your desired folder:
 
-Note for [Project repo](https://github.com/Bestbynature/final-group-capstone.git) follow there prerequisites
+<ul>
+    <li>Create your classic access token from github.com</li>
+    <li>run "git clone https://{access_token}@github.com/username/{repo_name}.git"</li>
+    <li>Update your git identity by running "git config --global user.email "your_email@gmail.com""</li>
+    <li>Update your name on git by running "git config --global user.name "your_name"</li>
+  </ul>
+  
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Install
 
-Install this project with:
+Install this project by running `npm install`
 
-for now you don't need any installation to run project if you already followed [Prerequisites](#prerequisites)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Usage <a name="usage"></a>
 
-just few dependency packages
-
-npm install
-bundle instal
-
-### Frontend $ Backend Testing <a name="tech-stack"></a>
-  <summary>Backend Testing</summary>
-  <ul>
-    <li>Backend (RSpec):</li>
-    <li>Command: rspec</li>
-  </ul>
-</details>
-<details>
-  <summary>Frontend Testing</summary>
-  <ul>
-    <li>React UI testing:</li>
-    <li>Command: npm test</li>
-  </ul>
-</details>
-
-### Usage
 To run the project, execute the following command:
 
-### On Windows
-# To start the development server
 ```sh
-npm start
-
+  use git bash to open in Vs code
+  use `npm run dev` to run web dev server
 ```
 
-# To build for production
-npm run build
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Run tests <a name="run-tests"></a>
+
+To run tests, run the following command:
+
+```sh
+Run `npx stylelint "**/*.{css,scss}" --fix` to fix linters
+Run `npx eslint "**/*.{js,jsx}" --fix` to fix linters"
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
+
+You can deploy this project using:
+
+- github pages
+```sh
+- npm run deploy
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,21 +149,21 @@ npm run build
 
 ## 👥 Author <a name="authors"></a>
 
-👤 Author: Damilare
+👤 **Damilare Ismaila**
 
 - GitHub: [@githubhandle](https://github.com/Bestbynature)
 - Twitter: [@twitterhandle](https://twitter.com/Dammybest)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/damilareismaila/)
-
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/damilare-ismaila-4a5a8b30/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [x] Styling of various webpage
-- [x] Better login and authorization
-
+- [ ] **[contact form page for customers]**
+- [ ] **[A feature for alternative list of movies]**
+- [ ] **[A feature for voting the best item on the list]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,7 +181,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please give it star or buy a coffee for us
+If you like this project, kindly drop a star for me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,22 +189,14 @@ If you like this project please give it star or buy a coffee for us
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-We would like to thank microverse for giving this opportunity to show up our skills
-
-and the <a href="https://guides.rubyonrails.org/getting_started.html"> Ruby on rails docs </a>
-
-moving further We want to thank [muratk Korkmaz on Behance](https://www.behance.net/muratk) the [author of the original design](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign) for App Inspiration
-
+I would like to use this medium to appreciate [Microverse](https://microverse.org) for giving me this type of opportunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [GENERAL PUBLIC LICENSE](/LICENSE) licensed.
-
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
