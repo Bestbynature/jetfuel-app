@@ -1,33 +1,110 @@
-.App {
-  text-align: center;
+.home {
+    max-width: 375px;
+    margin: 0 auto;
+    height: auto;
+    border: 2px solid #f4f4f4;
+    box-shadow: 0 0 10px #b4b2b2;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.search {
+    background-color: #e2e2e2;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    height: 3vh;
+    width: 90%;
+    margin: 2px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search > p {
+    flex: 1;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.fa-rotate-right {
+    transform: rotate(-45deg);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.row2 {
+    display: flex;
+    align-items: center;
+}
+
+.green-plug {
+    background-color: #04da79;
+    width: 15px;
+    height: 15px;
+    padding: 0.5em;
+    border-radius: 50%;
+    margin: 0 auto;
+    color: #fff;
+    rotate: -90deg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.android {
+    flex: 1;
+}
+
+.row3 {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.campaign-name {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 10px;
+}
+
+.campaign-name > p, 
+.campaign-name > h3 {
+  text-align: left;
+  margin: 2px 0 0 0;
+}
+
+.campaign-name > p {
+    color: #3d7e61;
+}
+
+.campaign-icon {
+    height: 15vh;
+    width: 100%;
+}
+
+.campaign-icon > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* carousel */
+.carousel {
+    overflow: hidden;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .outer-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
   }
-}
+  
+  .inner-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .item {
+    margin-right: 10px; /* Adjust as needed for spacing between images */
+  }
+  
+  .item img {
+    width: 200px; /* Adjust as needed for the image size */
+    height: auto;
+  }
+  
