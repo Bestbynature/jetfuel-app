@@ -11,7 +11,7 @@ const Home = () => {
   
   useEffect(() => {
     if(fetch) dispatch(fetchJets())
-  }, [dispatch, jets])
+  }, [dispatch, fetch])
 
 
   return (

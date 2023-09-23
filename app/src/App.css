@@ -29,6 +29,7 @@
 .row2 {
     display: flex;
     align-items: center;
+    padding: 0 10px;
 }
 
 .green-plug {
@@ -53,6 +54,7 @@
     max-width: 100%;
     display: grid;
     grid-template-columns: 25% 75%;
+    padding: 0 10px;
 }
 
 .campaign-name {
@@ -83,28 +85,60 @@
 }
 
 /* carousel */
-.carousel {
-    overflow: hidden;
+.item {
+    min-height: 20rem;
+    min-width: 40%;
+    margin: 10px;
+    display: grid;
+    grid-template-rows: 80% 20%;
+   
+}
+
+.item-top {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.8em;
+    border: 2px solid gray;
+}
+
+.dark {
+    background-color: rgba(163, 159, 159, 0.4);
     width: 100%;
-  }
-  
-  .outer-carousel {
+    height: 100%;
+    border-radius: 0.8em;
     display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-  }
-  
-  .inner-carousel {
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-play {
+    color: white;
+    font-size: 2em;;
+}
+
+/* .item > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    pointer-events: none;
+} */
+
+.inner-carousel {
     display: flex;
-    flex-wrap: nowrap;
-  }
-  
-  .item {
-    margin-right: 10px; /* Adjust as needed for spacing between images */
-  }
-  
-  .item img {
-    width: 200px; /* Adjust as needed for the image size */
-    height: auto;
-  }
-  
+}
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgb(159, 157, 157);
+    cursor: pointer;
+    margin-top: 0;
+}
